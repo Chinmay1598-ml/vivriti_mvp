@@ -1,2 +1,3 @@
-# vivriti_mvp
-RAG-based corporate policy assistant with Colab, ChromaDB, and LLM
+# Vivriti MVP
+
+End-to-end local RAG-based assistant.
