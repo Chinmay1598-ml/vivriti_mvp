@@ -16,18 +16,30 @@ _"Engineers are entitled to enroll in approved training programs and claim reimb
 
 ## 📂 Project Structure
 
-vivriti_mvp/
-├── notebooks/
+### vivriti_mvp/
+
+#### ├── notebooks/
+
 │ └── vivriti_main.ipynb # Full pipeline (upload → RAG → LLM)
-├── data/
+
+#### ├── data/
+
 │ └── uploads/ # Raw PDFs, DOCXs, XLSXs (ignored in Git)
+
 ├── chroma_db/ # Local vector store (ignored in Git)
+
 ├── chunk_metadata.csv # Cleaned + chunked text from docs
+
 ├── qa_log.csv # Query logs + answers + source docs
+
 ├── tagged_chunks.csv # Career-related clause tags (promotion, raise, etc.)
+
 ├── parse_failures.csv # Logs files with no extractable text
+
 ├── requirements.txt
+
 └── README.md
+
 
 
 ---
@@ -94,15 +106,6 @@ vivriti_mvp/
 👤 **Chinmay Deshpande**  
 ---
 
-## ⭐ Recruiter TL;DR
-
-✅ Clean, production-style code  
-✅ Handles HR/legal/compliance documents  
-✅ Uses embeddings + retrieval + LLM  
-✅ Designed for low-resource inference  
-✅ Easy to demo in 10 minutes
-
----
 
 ## 🤝 Contributions Welcome
 
