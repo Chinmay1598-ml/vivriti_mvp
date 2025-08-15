@@ -24,9 +24,9 @@ _"Engineers are entitled to enroll in approved training programs and claim reimb
 
 #### ├── data/
 
-│ └── uploads/ # Raw PDFs, DOCXs, XLSXs (ignored in Git)
+│ └── uploads/ # Raw PDFs, DOCXs, XLSXs
 
-├── chroma_db/ # Local vector store (ignored in Git)
+├── chroma_db/ # Local vector store
 
 ├── chunk_metadata.csv # Cleaned + chunked text from docs
 
